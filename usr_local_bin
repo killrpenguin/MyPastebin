@@ -6,7 +6,7 @@ lrwxrwxrwx 1 root  root     7 Apr 16 10:17 ar -> llvm-ar
 -rwxr-xr-x 1 root  root  475K Apr 16 10:17 bugpoint
 lrwxrwxrwx 1 root  root     7 Apr 16 10:17 c++ -> clang++
 lrwxrwxrwx 1 root  root     5 Apr 16 10:17 cc -> clang
--rwxr-xr-x 1 david david 4.2M Feb  1  2024 ccat
+-rwxr-xr-x 1 user user 4.2M Feb  1  2024 ccat
 lrwxrwxrwx 1 root  root    12 Apr 16 10:17 c++filt -> llvm-cxxfilt
 -rwxr-xr-x 1 root  root   36M Apr 16 10:17 c-index-test
 lrwxrwxrwx 1 root  root     8 Apr 16 10:17 clang -> clang-20
@@ -45,8 +45,8 @@ lrwxrwxrwx 1 root  root     9 Apr 16 10:17 cpp -> clang-cpp
 -rwxr-xr-x 1 root  root  535K Apr 16 10:17 diagtool
 lrwxrwxrwx 1 root  root    12 Apr 16 10:17 dlltool -> llvm-dlltool
 -rwxr-xr-x 1 root  root  407K Apr 16 10:17 dsymutil
--rwxrwxrwx 1 david david  42M Jan 12  2024 eask
--rwxr-xr-x 1 david david 1.9M Oct  6  2024 emacs-lsp-booster
+-rwxrwxrwx 1 user user  42M Jan 12  2024 eask
+-rwxr-xr-x 1 user user 1.9M Oct  6  2024 emacs-lsp-booster
 -rwxr-xr-x 1 root  root  745K Apr 16 10:17 FileCheck
 -rwxr-xr-x 1 root  root  487K Apr 16 10:17 find-all-symbols
 -rwxr-xr-x 1 root  root   28K Apr 16 10:17 git-clang-format
