@@ -1,0 +1,639 @@
+
+thread 'rustc' panicked at compiler/rustc_middle/src/hir/map.rs:985:9:
+assertion `left == right` failed
+  left: #0
+ right: #29
+stack backtrace:
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+
+error: the compiler unexpectedly panicked. this is a bug.
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: rustc 1.90.0 (1159e78c4 2025-09-14) (gentoo) running on x86_64-unknown-linux-gnu
+
+note: compiler flags: --crate-type lib -C embed-bitcode=no -C debuginfo=2
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+#0 [def_span] looking up span for `action_map::ActionMapExtManual::add_action_entries::{closure#0}`
+#1 [typeck] type-checking `action_map::ActionMapExtManual::add_action_entries`
+#2 [analysis] running analysis passes on this crate
+end of query stack
+
+thread 'rustc' panicked at compiler/rustc_middle/src/hir/map.rs:985:9:
+assertion `left == right` failed
+  left: #0
+ right: #50
+stack backtrace:
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+
+error: the compiler unexpectedly panicked. this is a bug.
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: rustc 1.90.0 (1159e78c4 2025-09-14) (gentoo) running on x86_64-unknown-linux-gnu
+
+note: compiler flags: --crate-type lib -C embed-bitcode=no -C debuginfo=2
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+#0 [def_span] looking up span for `async_initable::<impl at /home/david/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gio-0.21.2/src/async_initable.rs:10:1: 10:19>::with_type::{closure#0}`
+#1 [typeck] type-checking `async_initable::<impl at /home/david/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gio-0.21.2/src/async_initable.rs:10:1: 10:19>::with_type`
+#2 [analysis] running analysis passes on this crate
+end of query stack
+
+thread 'rustc' panicked at compiler/rustc_middle/src/hir/map.rs:985:9:
+assertion `left == right` failed
+  left: #0
+ right: #57
+stack backtrace:
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+
+error: the compiler unexpectedly panicked. this is a bug.
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: rustc 1.90.0 (1159e78c4 2025-09-14) (gentoo) running on x86_64-unknown-linux-gnu
+
+note: compiler flags: --crate-type lib -C embed-bitcode=no -C debuginfo=2
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+#0 [def_span] looking up span for `async_initable::<impl at /home/david/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gio-0.21.2/src/async_initable.rs:10:1: 10:19>::with_type_future::{closure#0}::{closure#0}`
+#1 [typeck] type-checking `async_initable::<impl at /home/david/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gio-0.21.2/src/async_initable.rs:10:1: 10:19>::with_type_future`
+#2 [analysis] running analysis passes on this crate
+end of query stack
+
+thread 'rustc' panicked at compiler/rustc_middle/src/hir/map.rs:985:9:
+assertion `left == right` failed
+  left: #0
+ right: #64
+stack backtrace:
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+
+error: the compiler unexpectedly panicked. this is a bug.
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: rustc 1.90.0 (1159e78c4 2025-09-14) (gentoo) running on x86_64-unknown-linux-gnu
+
+note: compiler flags: --crate-type lib -C embed-bitcode=no -C debuginfo=2
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+#0 [def_span] looking up span for `async_initable::<impl at /home/david/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gio-0.21.2/src/async_initable.rs:10:1: 10:19>::with_mut_values::{closure#0}`
+#1 [typeck] type-checking `async_initable::<impl at /home/david/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gio-0.21.2/src/async_initable.rs:10:1: 10:19>::with_mut_values`
+#2 [analysis] running analysis passes on this crate
+end of query stack
+
+thread 'rustc' panicked at compiler/rustc_middle/src/hir/map.rs:985:9:
+assertion `left == right` failed
+  left: #0
+ right: #71
+stack backtrace:
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+
+error: the compiler unexpectedly panicked. this is a bug.
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: rustc 1.90.0 (1159e78c4 2025-09-14) (gentoo) running on x86_64-unknown-linux-gnu
+
+note: compiler flags: --crate-type lib -C embed-bitcode=no -C debuginfo=2
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+#0 [def_span] looking up span for `async_initable::<impl at /home/david/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gio-0.21.2/src/async_initable.rs:10:1: 10:19>::with_mut_values_future::{closure#0}::{closure#0}`
+#1 [typeck] type-checking `async_initable::<impl at /home/david/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gio-0.21.2/src/async_initable.rs:10:1: 10:19>::with_mut_values_future`
+#2 [analysis] running analysis passes on this crate
+end of query stack
+error: could not compile `gio` (lib)
+
+Caused by:
+  process didn't exit successfully: `/home/david/.rustup/toolchains/gentoo/bin/rustc --crate-name gio --edition=2021 /home/david/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gio-0.21.2/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --diagnostic-width=130 --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("v2_58", "v2_60", "v2_62", "v2_64", "v2_66", "v2_68", "v2_70", "v2_72", "v2_74", "v2_76", "v2_78", "v2_80", "v2_82", "v2_84", "v2_86"))' -C metadata=2558a1138ba4486c -C extra-filename=-2d19a66085ed8b13 --out-dir /home/david/Programming/Rust/tmp/target/debug/deps -L dependency=/home/david/Programming/Rust/tmp/target/debug/deps --extern futures_channel=/home/david/Programming/Rust/tmp/target/debug/deps/libfutures_channel-35b0d041f3351a4f.rmeta --extern futures_core=/home/david/Programming/Rust/tmp/target/debug/deps/libfutures_core-0fccf4de4a2250b0.rmeta --extern futures_io=/home/david/Programming/Rust/tmp/target/debug/deps/libfutures_io-141023834609d6a4.rmeta --extern futures_util=/home/david/Programming/Rust/tmp/target/debug/deps/libfutures_util-f4a31c064eedbb02.rmeta --extern gio_sys=/home/david/Programming/Rust/tmp/target/debug/deps/libgio_sys-b1ebd6f67028903a.rmeta --extern glib=/home/david/Programming/Rust/tmp/target/debug/deps/libglib-e9627af13f29a116.rmeta --extern libc=/home/david/Programming/Rust/tmp/target/debug/deps/liblibc-f2fc70c91e3437a0.rmeta --extern pin_project_lite=/home/david/Programming/Rust/tmp/target/debug/deps/libpin_project_lite-f73d95a73f3bfe01.rmeta --extern smallvec=/home/david/Programming/Rust/tmp/target/debug/deps/libsmallvec-e83311bb74e0b9de.rmeta --cap-lints allow` (exit status: 101)
+david@tux ~/Programming/Rust/tmp (trunk?) $ ls
+total 24K
+drwxr-xr-x  5 david david  122 Oct  5 11:53 .
+drwxr-xr-x 16 david david 4.0K Oct  5 11:47 ..
+-rw-r--r--  1 david david    0 Oct  5 11:53 build_failure_log
+-rw-r--r--  1 david david  11K Oct  5 11:47 Cargo.lock
+-rw-r--r--  1 david david   89 Oct  5 11:47 Cargo.toml
+drwxr-xr-x  6 david david  103 Oct  5 11:53 .git
+-rw-r--r--  1 david david    8 Oct  5 11:47 .gitignore
+drwxr-xr-x  2 david david   21 Oct  5 11:47 src
+drwxr-xr-x  3 david david   63 Oct  5 11:48 target
+david@tux ~/Programming/Rust/tmp (trunk?) $ cat build_failure_log 
+david@tux ~/Programming/Rust/tmp (trunk?) $ rm build_failure_log 
+david@tux ~/Programming/Rust/tmp (trunk?) $ 
+david@tux ~/Programming/Rust/tmp (trunk?) $ RUST_BACKTRACE=full cargo build                    
+   Compiling gio v0.21.2
+
+thread 'rustc' panicked at compiler/rustc_middle/src/hir/map.rs:985:9:
+assertion `left == right` failed
+  left: #0
+ right: #29
+stack backtrace:
+   0:     0x7f43def4cde7 - <std::sys::backtrace::BacktraceLock::print::DisplayBacktrace as core::fmt::Display>::fmt::h8e8fd6180ddfbd7f
+   1:     0x7f43d9fb06ef - core::fmt::write::he18f5420b620829d
+   2:     0x7f43def3eb49 - <unknown>
+   3:     0x7f43def51ca0 - <unknown>
+   4:     0x7f43def5186d - std::panicking::default_hook::h0e60bdf2990a138e
+   5:     0x7f43db533b70 - <unknown>
+   6:     0x7f43def525fd - std::panicking::rust_panic_with_hook::h4734e0501b1a43c6
+   7:     0x7f43def5225c - <unknown>
+   8:     0x7f43def4d369 - <unknown>
+   9:     0x7f43def51eff - __rustc[ac5f6d510abeb4a3]::rust_begin_unwind
+  10:     0x7f43d9c03aa0 - core::panicking::panic_fmt::hb845b03fe76e677e
+  11:     0x7f43d9c03ee4 - core::panicking::assert_failed_inner::h82436587a3b4f1b1
+  12:     0x7f43d9d51736 - core[b4c6bd90f375d6c2]::panicking::assert_failed::<rustc_span[91c190de805206ee]::hygiene::SyntaxContext, rustc_span[91c190de805206ee]::hygiene::SyntaxContext>
+  13:     0x7f43dcbcc2ff - <rustc_middle[52348969082f9908]::ty::context::TyCtxt>::hir_span
+  14:     0x7f43dc4decd9 - <unknown>
+  15:     0x7f43ddd544e6 - <unknown>
+  16:     0x7f43ddc7454f - <unknown>
+  17:     0x7f43ddb403f6 - rustc_query_system[13da23bd43f77368]::query::plumbing::try_execute_query::<rustc_query_impl[f7be1a0569e6f903]::DynamicConfig<rustc_query_system[13da23bd43f77368]::query::caches::DefIdCache<rustc_middle[52348969082f9908]::query::erase::Erased<[u8; 8usize]>>, false, false, false>, rustc_query_impl[f7be1a0569e6f903]::plumbing::QueryCtxt, false>
+  18:     0x7f43de02a071 - <unknown>
+  19:     0x7f43dbe7c098 - <unknown>
+  20:     0x7f43dbe75b00 - <unknown>
+  21:     0x7f43dbe7f245 - <unknown>
+  22:     0x7f43dbdd66a2 - <unknown>
+  23:     0x7f43dbe7d9d1 - <unknown>
+  24:     0x7f43dbe0b2bf - <unknown>
+  25:     0x7f43dbe7fb17 - <unknown>
+  26:     0x7f43dbdd66a2 - <unknown>
+  27:     0x7f43dbe7d9d1 - <unknown>
+  28:     0x7f43dbdffd4c - <unknown>
+  29:     0x7f43dbe8914a - <unknown>
+  30:     0x7f43dbdd66a2 - <unknown>
+  31:     0x7f43dbe7d9d1 - <unknown>
+  32:     0x7f43dbe0aff6 - <unknown>
+  33:     0x7f43dbe7fb17 - <unknown>
+  34:     0x7f43dbdd66a2 - <unknown>
+  35:     0x7f43dbe7d9d1 - <unknown>
+  36:     0x7f43dbe854b0 - <unknown>
+  37:     0x7f43dbdd66a2 - <unknown>
+  38:     0x7f43dbe7d9d1 - <unknown>
+  39:     0x7f43dbe0ae5b - <unknown>
+  40:     0x7f43dbe7fb17 - <unknown>
+  41:     0x7f43dbdd66a2 - <unknown>
+  42:     0x7f43dbe7d9d1 - <unknown>
+  43:     0x7f43dbe86348 - <unknown>
+  44:     0x7f43dbdd66a2 - <unknown>
+  45:     0x7f43dbe7d9d1 - <unknown>
+  46:     0x7f43dbe0ae5b - <unknown>
+  47:     0x7f43dbe815c9 - <unknown>
+  48:     0x7f43dbdd66a2 - <unknown>
+  49:     0x7f43dbe7d9d1 - <unknown>
+  50:     0x7f43dbe86348 - <unknown>
+  51:     0x7f43dbdd66a2 - <unknown>
+  52:     0x7f43dbe7d9d1 - <unknown>
+  53:     0x7f43dbe7e6a3 - <unknown>
+  54:     0x7f43dbdd66a2 - <unknown>
+  55:     0x7f43dbe7d9d1 - <unknown>
+  56:     0x7f43dbe0b2bf - <unknown>
+  57:     0x7f43dbe7fb17 - <unknown>
+  58:     0x7f43dbdd66a2 - <unknown>
+  59:     0x7f43dbe7d9d1 - <unknown>
+  60:     0x7f43dbdd80fa - <unknown>
+  61:     0x7f43dc0c87f2 - <unknown>
+  62:     0x7f43dc0d88c6 - <unknown>
+  63:     0x7f43ddd53904 - <unknown>
+  64:     0x7f43ddc7285b - <unknown>
+  65:     0x7f43ddbcac44 - rustc_query_system[13da23bd43f77368]::query::plumbing::try_execute_query::<rustc_query_impl[f7be1a0569e6f903]::DynamicConfig<rustc_data_structures[47b07c9f56724f4]::vec_cache::VecCache<rustc_span[91c190de805206ee]::def_id::LocalDefId, rustc_middle[52348969082f9908]::query::erase::Erased<[u8; 8usize]>, rustc_query_system[13da23bd43f77368]::dep_graph::graph::DepNodeIndex>, false, false, false>, rustc_query_impl[f7be1a0569e6f903]::plumbing::QueryCtxt, false>
+  66:     0x7f43de0289c9 - <unknown>
+  67:     0x7f43dbaf78a0 - <unknown>
+  68:     0x7f43dbaee379 - <unknown>
+  69:     0x7f43db9b0cb1 - rustc_hir_analysis[ad1374ae5dc0615b]::check_crate
+  70:     0x7f43dc4ed435 - rustc_interface[e8a11c94ee4b47dc]::passes::analysis
+  71:     0x7f43ddd540e2 - <unknown>
+  72:     0x7f43ddc73ab7 - <unknown>
+  73:     0x7f43ddb440c3 - rustc_query_system[13da23bd43f77368]::query::plumbing::try_execute_query::<rustc_query_impl[f7be1a0569e6f903]::DynamicConfig<rustc_query_system[13da23bd43f77368]::query::caches::SingleCache<rustc_middle[52348969082f9908]::query::erase::Erased<[u8; 0usize]>>, false, false, false>, rustc_query_impl[f7be1a0569e6f903]::plumbing::QueryCtxt, false>
+  74:     0x7f43de0247b9 - <unknown>
+  75:     0x7f43db4f11cd - <unknown>
+  76:     0x7f43db535086 - <unknown>
+  77:     0x7f43db5e6550 - <unknown>
+  78:     0x7f43db5e48e0 - <unknown>
+  79:     0x7f43db565447 - <unknown>
+  80:     0x7f43db4fdbbf - <unknown>
+  81:     0x7f43db5cb6e7 - <unknown>
+  82:     0x7f43def58341 - <unknown>
+  83:     0x7f43d90a1c2e - <unknown>
+  84:     0x7f43d912560c - <unknown>
+  85:                0x0 - <unknown>
+
+error: the compiler unexpectedly panicked. this is a bug.
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: rustc 1.90.0 (1159e78c4 2025-09-14) (gentoo) running on x86_64-unknown-linux-gnu
+
+note: compiler flags: --crate-type lib -C embed-bitcode=no -C debuginfo=2
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+#0 [def_span] looking up span for `action_map::ActionMapExtManual::add_action_entries::{closure#0}`
+#1 [typeck] type-checking `action_map::ActionMapExtManual::add_action_entries`
+#2 [analysis] running analysis passes on this crate
+end of query stack
+
+thread 'rustc' panicked at compiler/rustc_middle/src/hir/map.rs:985:9:
+assertion `left == right` failed
+  left: #0
+ right: #50
+stack backtrace:
+   0:     0x7f43def4cde7 - <std::sys::backtrace::BacktraceLock::print::DisplayBacktrace as core::fmt::Display>::fmt::h8e8fd6180ddfbd7f
+   1:     0x7f43d9fb06ef - core::fmt::write::he18f5420b620829d
+   2:     0x7f43def3eb49 - <unknown>
+   3:     0x7f43def51ca0 - <unknown>
+   4:     0x7f43def5186d - std::panicking::default_hook::h0e60bdf2990a138e
+   5:     0x7f43db533b70 - <unknown>
+   6:     0x7f43def525fd - std::panicking::rust_panic_with_hook::h4734e0501b1a43c6
+   7:     0x7f43def5225c - <unknown>
+   8:     0x7f43def4d369 - <unknown>
+   9:     0x7f43def51eff - __rustc[ac5f6d510abeb4a3]::rust_begin_unwind
+  10:     0x7f43d9c03aa0 - core::panicking::panic_fmt::hb845b03fe76e677e
+  11:     0x7f43d9c03ee4 - core::panicking::assert_failed_inner::h82436587a3b4f1b1
+  12:     0x7f43d9d51736 - core[b4c6bd90f375d6c2]::panicking::assert_failed::<rustc_span[91c190de805206ee]::hygiene::SyntaxContext, rustc_span[91c190de805206ee]::hygiene::SyntaxContext>
+  13:     0x7f43dcbcc2ff - <rustc_middle[52348969082f9908]::ty::context::TyCtxt>::hir_span
+  14:     0x7f43dc4decd9 - <unknown>
+  15:     0x7f43ddd544e6 - <unknown>
+  16:     0x7f43ddc7454f - <unknown>
+  17:     0x7f43ddb403f6 - rustc_query_system[13da23bd43f77368]::query::plumbing::try_execute_query::<rustc_query_impl[f7be1a0569e6f903]::DynamicConfig<rustc_query_system[13da23bd43f77368]::query::caches::DefIdCache<rustc_middle[52348969082f9908]::query::erase::Erased<[u8; 8usize]>>, false, false, false>, rustc_query_impl[f7be1a0569e6f903]::plumbing::QueryCtxt, false>
+  18:     0x7f43de02a071 - <unknown>
+  19:     0x7f43dbe7c098 - <unknown>
+  20:     0x7f43dbe75b00 - <unknown>
+  21:     0x7f43dbe7f245 - <unknown>
+  22:     0x7f43dbdd66a2 - <unknown>
+  23:     0x7f43dbe7d9d1 - <unknown>
+  24:     0x7f43dbe0b2bf - <unknown>
+  25:     0x7f43dbe7fb17 - <unknown>
+  26:     0x7f43dbdd66a2 - <unknown>
+  27:     0x7f43dbe7d9d1 - <unknown>
+  28:     0x7f43dbdffd4c - <unknown>
+  29:     0x7f43dbe8914a - <unknown>
+  30:     0x7f43dbdd66a2 - <unknown>
+  31:     0x7f43dbe7d9d1 - <unknown>
+  32:     0x7f43dbe0b2bf - <unknown>
+  33:     0x7f43dbe7fb17 - <unknown>
+  34:     0x7f43dbdd66a2 - <unknown>
+  35:     0x7f43dbe7d9d1 - <unknown>
+  36:     0x7f43dbe0aff6 - <unknown>
+  37:     0x7f43dbe7fb17 - <unknown>
+  38:     0x7f43dbdd66a2 - <unknown>
+  39:     0x7f43dbe7d9d1 - <unknown>
+  40:     0x7f43dbdd80fa - <unknown>
+  41:     0x7f43dc0c87f2 - <unknown>
+  42:     0x7f43dc0d88c6 - <unknown>
+  43:     0x7f43ddd53904 - <unknown>
+  44:     0x7f43ddc7285b - <unknown>
+  45:     0x7f43ddbcac44 - rustc_query_system[13da23bd43f77368]::query::plumbing::try_execute_query::<rustc_query_impl[f7be1a0569e6f903]::DynamicConfig<rustc_data_structures[47b07c9f56724f4]::vec_cache::VecCache<rustc_span[91c190de805206ee]::def_id::LocalDefId, rustc_middle[52348969082f9908]::query::erase::Erased<[u8; 8usize]>, rustc_query_system[13da23bd43f77368]::dep_graph::graph::DepNodeIndex>, false, false, false>, rustc_query_impl[f7be1a0569e6f903]::plumbing::QueryCtxt, false>
+  46:     0x7f43de0289c9 - <unknown>
+  47:     0x7f43dbaf78a0 - <unknown>
+  48:     0x7f43dbaee379 - <unknown>
+  49:     0x7f43db9b0cb1 - rustc_hir_analysis[ad1374ae5dc0615b]::check_crate
+  50:     0x7f43dc4ed435 - rustc_interface[e8a11c94ee4b47dc]::passes::analysis
+  51:     0x7f43ddd540e2 - <unknown>
+  52:     0x7f43ddc73ab7 - <unknown>
+  53:     0x7f43ddb440c3 - rustc_query_system[13da23bd43f77368]::query::plumbing::try_execute_query::<rustc_query_impl[f7be1a0569e6f903]::DynamicConfig<rustc_query_system[13da23bd43f77368]::query::caches::SingleCache<rustc_middle[52348969082f9908]::query::erase::Erased<[u8; 0usize]>>, false, false, false>, rustc_query_impl[f7be1a0569e6f903]::plumbing::QueryCtxt, false>
+  54:     0x7f43de0247b9 - <unknown>
+  55:     0x7f43db4f11cd - <unknown>
+  56:     0x7f43db535086 - <unknown>
+  57:     0x7f43db5e6550 - <unknown>
+  58:     0x7f43db5e48e0 - <unknown>
+  59:     0x7f43db565447 - <unknown>
+  60:     0x7f43db4fdbbf - <unknown>
+  61:     0x7f43db5cb6e7 - <unknown>
+  62:     0x7f43def58341 - <unknown>
+  63:     0x7f43d90a1c2e - <unknown>
+  64:     0x7f43d912560c - <unknown>
+  65:                0x0 - <unknown>
+
+error: the compiler unexpectedly panicked. this is a bug.
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: rustc 1.90.0 (1159e78c4 2025-09-14) (gentoo) running on x86_64-unknown-linux-gnu
+
+note: compiler flags: --crate-type lib -C embed-bitcode=no -C debuginfo=2
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+#0 [def_span] looking up span for `async_initable::<impl at /home/david/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gio-0.21.2/src/async_initable.rs:10:1: 10:19>::with_type::{closure#0}`
+#1 [typeck] type-checking `async_initable::<impl at /home/david/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gio-0.21.2/src/async_initable.rs:10:1: 10:19>::with_type`
+#2 [analysis] running analysis passes on this crate
+end of query stack
+
+thread 'rustc' panicked at compiler/rustc_middle/src/hir/map.rs:985:9:
+assertion `left == right` failed
+  left: #0
+ right: #57
+stack backtrace:
+   0:     0x7f43def4cde7 - <std::sys::backtrace::BacktraceLock::print::DisplayBacktrace as core::fmt::Display>::fmt::h8e8fd6180ddfbd7f
+   1:     0x7f43d9fb06ef - core::fmt::write::he18f5420b620829d
+   2:     0x7f43def3eb49 - <unknown>
+   3:     0x7f43def51ca0 - <unknown>
+   4:     0x7f43def5186d - std::panicking::default_hook::h0e60bdf2990a138e
+   5:     0x7f43db533b70 - <unknown>
+   6:     0x7f43def525fd - std::panicking::rust_panic_with_hook::h4734e0501b1a43c6
+   7:     0x7f43def5225c - <unknown>
+   8:     0x7f43def4d369 - <unknown>
+   9:     0x7f43def51eff - __rustc[ac5f6d510abeb4a3]::rust_begin_unwind
+  10:     0x7f43d9c03aa0 - core::panicking::panic_fmt::hb845b03fe76e677e
+  11:     0x7f43d9c03ee4 - core::panicking::assert_failed_inner::h82436587a3b4f1b1
+  12:     0x7f43d9d51736 - core[b4c6bd90f375d6c2]::panicking::assert_failed::<rustc_span[91c190de805206ee]::hygiene::SyntaxContext, rustc_span[91c190de805206ee]::hygiene::SyntaxContext>
+  13:     0x7f43dcbcc2ff - <rustc_middle[52348969082f9908]::ty::context::TyCtxt>::hir_span
+  14:     0x7f43dc4decd9 - <unknown>
+  15:     0x7f43ddd544e6 - <unknown>
+  16:     0x7f43ddc7454f - <unknown>
+  17:     0x7f43ddb403f6 - rustc_query_system[13da23bd43f77368]::query::plumbing::try_execute_query::<rustc_query_impl[f7be1a0569e6f903]::DynamicConfig<rustc_query_system[13da23bd43f77368]::query::caches::DefIdCache<rustc_middle[52348969082f9908]::query::erase::Erased<[u8; 8usize]>>, false, false, false>, rustc_query_impl[f7be1a0569e6f903]::plumbing::QueryCtxt, false>
+  18:     0x7f43de02a071 - <unknown>
+  19:     0x7f43dbe7c098 - <unknown>
+  20:     0x7f43dbe75b00 - <unknown>
+  21:     0x7f43dbe7f245 - <unknown>
+  22:     0x7f43dbdd66a2 - <unknown>
+  23:     0x7f43dbe7d9d1 - <unknown>
+  24:     0x7f43dbe0b2bf - <unknown>
+  25:     0x7f43dbe7fb17 - <unknown>
+  26:     0x7f43dbdd66a2 - <unknown>
+  27:     0x7f43dbe7d9d1 - <unknown>
+  28:     0x7f43dbdffd4c - <unknown>
+  29:     0x7f43dbe8914a - <unknown>
+  30:     0x7f43dbdd66a2 - <unknown>
+  31:     0x7f43dbe7d9d1 - <unknown>
+  32:     0x7f43dbe0aff6 - <unknown>
+  33:     0x7f43dbe7fb17 - <unknown>
+  34:     0x7f43dbdd66a2 - <unknown>
+  35:     0x7f43dbe7d9d1 - <unknown>
+  36:     0x7f43dbdd80fa - <unknown>
+  37:     0x7f43dc0c87f2 - <unknown>
+  38:     0x7f43dbe75643 - <unknown>
+  39:     0x7f43dbe7f245 - <unknown>
+  40:     0x7f43dbdd66a2 - <unknown>
+  41:     0x7f43dbe7d9d1 - <unknown>
+  42:     0x7f43dbdffd4c - <unknown>
+  43:     0x7f43dbdbfe38 - <unknown>
+  44:     0x7f43dbe87518 - <unknown>
+  45:     0x7f43dbdd66a2 - <unknown>
+  46:     0x7f43dbe7d9d1 - <unknown>
+  47:     0x7f43dbdffd4c - <unknown>
+  48:     0x7f43dbdbfe38 - <unknown>
+  49:     0x7f43dbe87518 - <unknown>
+  50:     0x7f43dbdd66a2 - <unknown>
+  51:     0x7f43dbe7d9d1 - <unknown>
+  52:     0x7f43dbe0b2bf - <unknown>
+  53:     0x7f43dbe7fb17 - <unknown>
+  54:     0x7f43dbdd66a2 - <unknown>
+  55:     0x7f43dbe7d9d1 - <unknown>
+  56:     0x7f43dbe0b2bf - <unknown>
+  57:     0x7f43dbe7fb17 - <unknown>
+  58:     0x7f43dbdd66a2 - <unknown>
+  59:     0x7f43dbe7d9d1 - <unknown>
+  60:     0x7f43dbdd80fa - <unknown>
+  61:     0x7f43dc0c87f2 - <unknown>
+  62:     0x7f43dc0d88c6 - <unknown>
+  63:     0x7f43ddd53904 - <unknown>
+  64:     0x7f43ddc7285b - <unknown>
+  65:     0x7f43ddbcac44 - rustc_query_system[13da23bd43f77368]::query::plumbing::try_execute_query::<rustc_query_impl[f7be1a0569e6f903]::DynamicConfig<rustc_data_structures[47b07c9f56724f4]::vec_cache::VecCache<rustc_span[91c190de805206ee]::def_id::LocalDefId, rustc_middle[52348969082f9908]::query::erase::Erased<[u8; 8usize]>, rustc_query_system[13da23bd43f77368]::dep_graph::graph::DepNodeIndex>, false, false, false>, rustc_query_impl[f7be1a0569e6f903]::plumbing::QueryCtxt, false>
+  66:     0x7f43de0289c9 - <unknown>
+  67:     0x7f43dbaf78a0 - <unknown>
+  68:     0x7f43dbaee379 - <unknown>
+  69:     0x7f43db9b0cb1 - rustc_hir_analysis[ad1374ae5dc0615b]::check_crate
+  70:     0x7f43dc4ed435 - rustc_interface[e8a11c94ee4b47dc]::passes::analysis
+  71:     0x7f43ddd540e2 - <unknown>
+  72:     0x7f43ddc73ab7 - <unknown>
+  73:     0x7f43ddb440c3 - rustc_query_system[13da23bd43f77368]::query::plumbing::try_execute_query::<rustc_query_impl[f7be1a0569e6f903]::DynamicConfig<rustc_query_system[13da23bd43f77368]::query::caches::SingleCache<rustc_middle[52348969082f9908]::query::erase::Erased<[u8; 0usize]>>, false, false, false>, rustc_query_impl[f7be1a0569e6f903]::plumbing::QueryCtxt, false>
+  74:     0x7f43de0247b9 - <unknown>
+  75:     0x7f43db4f11cd - <unknown>
+  76:     0x7f43db535086 - <unknown>
+  77:     0x7f43db5e6550 - <unknown>
+  78:     0x7f43db5e48e0 - <unknown>
+  79:     0x7f43db565447 - <unknown>
+  80:     0x7f43db4fdbbf - <unknown>
+  81:     0x7f43db5cb6e7 - <unknown>
+  82:     0x7f43def58341 - <unknown>
+  83:     0x7f43d90a1c2e - <unknown>
+  84:     0x7f43d912560c - <unknown>
+  85:                0x0 - <unknown>
+
+error: the compiler unexpectedly panicked. this is a bug.
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: rustc 1.90.0 (1159e78c4 2025-09-14) (gentoo) running on x86_64-unknown-linux-gnu
+
+note: compiler flags: --crate-type lib -C embed-bitcode=no -C debuginfo=2
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+#0 [def_span] looking up span for `async_initable::<impl at /home/david/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gio-0.21.2/src/async_initable.rs:10:1: 10:19>::with_type_future::{closure#0}::{closure#0}`
+#1 [typeck] type-checking `async_initable::<impl at /home/david/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gio-0.21.2/src/async_initable.rs:10:1: 10:19>::with_type_future`
+#2 [analysis] running analysis passes on this crate
+end of query stack
+
+thread 'rustc' panicked at compiler/rustc_middle/src/hir/map.rs:985:9:
+assertion `left == right` failed
+  left: #0
+ right: #64
+stack backtrace:
+   0:     0x7f43def4cde7 - <std::sys::backtrace::BacktraceLock::print::DisplayBacktrace as core::fmt::Display>::fmt::h8e8fd6180ddfbd7f
+   1:     0x7f43d9fb06ef - core::fmt::write::he18f5420b620829d
+   2:     0x7f43def3eb49 - <unknown>
+   3:     0x7f43def51ca0 - <unknown>
+   4:     0x7f43def5186d - std::panicking::default_hook::h0e60bdf2990a138e
+   5:     0x7f43db533b70 - <unknown>
+   6:     0x7f43def525fd - std::panicking::rust_panic_with_hook::h4734e0501b1a43c6
+   7:     0x7f43def5225c - <unknown>
+   8:     0x7f43def4d369 - <unknown>
+   9:     0x7f43def51eff - __rustc[ac5f6d510abeb4a3]::rust_begin_unwind
+  10:     0x7f43d9c03aa0 - core::panicking::panic_fmt::hb845b03fe76e677e
+  11:     0x7f43d9c03ee4 - core::panicking::assert_failed_inner::h82436587a3b4f1b1
+  12:     0x7f43d9d51736 - core[b4c6bd90f375d6c2]::panicking::assert_failed::<rustc_span[91c190de805206ee]::hygiene::SyntaxContext, rustc_span[91c190de805206ee]::hygiene::SyntaxContext>
+  13:     0x7f43dcbcc2ff - <rustc_middle[52348969082f9908]::ty::context::TyCtxt>::hir_span
+  14:     0x7f43dc4decd9 - <unknown>
+  15:     0x7f43ddd544e6 - <unknown>
+  16:     0x7f43ddc7454f - <unknown>
+  17:     0x7f43ddb403f6 - rustc_query_system[13da23bd43f77368]::query::plumbing::try_execute_query::<rustc_query_impl[f7be1a0569e6f903]::DynamicConfig<rustc_query_system[13da23bd43f77368]::query::caches::DefIdCache<rustc_middle[52348969082f9908]::query::erase::Erased<[u8; 8usize]>>, false, false, false>, rustc_query_impl[f7be1a0569e6f903]::plumbing::QueryCtxt, false>
+  18:     0x7f43de02a071 - <unknown>
+  19:     0x7f43dbe7c098 - <unknown>
+  20:     0x7f43dbe75b00 - <unknown>
+  21:     0x7f43dbe7f245 - <unknown>
+  22:     0x7f43dbdd66a2 - <unknown>
+  23:     0x7f43dbe7d9d1 - <unknown>
+  24:     0x7f43dbe0b2bf - <unknown>
+  25:     0x7f43dbe7fb17 - <unknown>
+  26:     0x7f43dbdd66a2 - <unknown>
+  27:     0x7f43dbe7d9d1 - <unknown>
+  28:     0x7f43dbdffd4c - <unknown>
+  29:     0x7f43dbe8914a - <unknown>
+  30:     0x7f43dbdd66a2 - <unknown>
+  31:     0x7f43dbe7d9d1 - <unknown>
+  32:     0x7f43dbe0b2bf - <unknown>
+  33:     0x7f43dbe7fb17 - <unknown>
+  34:     0x7f43dbdd66a2 - <unknown>
+  35:     0x7f43dbe7d9d1 - <unknown>
+  36:     0x7f43dbe0aff6 - <unknown>
+  37:     0x7f43dbe7fb17 - <unknown>
+  38:     0x7f43dbdd66a2 - <unknown>
+  39:     0x7f43dbe7d9d1 - <unknown>
+  40:     0x7f43dbdd80fa - <unknown>
+  41:     0x7f43dc0c87f2 - <unknown>
+  42:     0x7f43dc0d88c6 - <unknown>
+  43:     0x7f43ddd53904 - <unknown>
+  44:     0x7f43ddc7285b - <unknown>
+  45:     0x7f43ddbcac44 - rustc_query_system[13da23bd43f77368]::query::plumbing::try_execute_query::<rustc_query_impl[f7be1a0569e6f903]::DynamicConfig<rustc_data_structures[47b07c9f56724f4]::vec_cache::VecCache<rustc_span[91c190de805206ee]::def_id::LocalDefId, rustc_middle[52348969082f9908]::query::erase::Erased<[u8; 8usize]>, rustc_query_system[13da23bd43f77368]::dep_graph::graph::DepNodeIndex>, false, false, false>, rustc_query_impl[f7be1a0569e6f903]::plumbing::QueryCtxt, false>
+  46:     0x7f43de0289c9 - <unknown>
+  47:     0x7f43dbaf78a0 - <unknown>
+  48:     0x7f43dbaee379 - <unknown>
+  49:     0x7f43db9b0cb1 - rustc_hir_analysis[ad1374ae5dc0615b]::check_crate
+  50:     0x7f43dc4ed435 - rustc_interface[e8a11c94ee4b47dc]::passes::analysis
+  51:     0x7f43ddd540e2 - <unknown>
+  52:     0x7f43ddc73ab7 - <unknown>
+  53:     0x7f43ddb440c3 - rustc_query_system[13da23bd43f77368]::query::plumbing::try_execute_query::<rustc_query_impl[f7be1a0569e6f903]::DynamicConfig<rustc_query_system[13da23bd43f77368]::query::caches::SingleCache<rustc_middle[52348969082f9908]::query::erase::Erased<[u8; 0usize]>>, false, false, false>, rustc_query_impl[f7be1a0569e6f903]::plumbing::QueryCtxt, false>
+  54:     0x7f43de0247b9 - <unknown>
+  55:     0x7f43db4f11cd - <unknown>
+  56:     0x7f43db535086 - <unknown>
+  57:     0x7f43db5e6550 - <unknown>
+  58:     0x7f43db5e48e0 - <unknown>
+  59:     0x7f43db565447 - <unknown>
+  60:     0x7f43db4fdbbf - <unknown>
+  61:     0x7f43db5cb6e7 - <unknown>
+  62:     0x7f43def58341 - <unknown>
+  63:     0x7f43d90a1c2e - <unknown>
+  64:     0x7f43d912560c - <unknown>
+  65:                0x0 - <unknown>
+
+error: the compiler unexpectedly panicked. this is a bug.
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: rustc 1.90.0 (1159e78c4 2025-09-14) (gentoo) running on x86_64-unknown-linux-gnu
+
+note: compiler flags: --crate-type lib -C embed-bitcode=no -C debuginfo=2
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+#0 [def_span] looking up span for `async_initable::<impl at /home/david/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gio-0.21.2/src/async_initable.rs:10:1: 10:19>::with_mut_values::{closure#0}`
+#1 [typeck] type-checking `async_initable::<impl at /home/david/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gio-0.21.2/src/async_initable.rs:10:1: 10:19>::with_mut_values`
+#2 [analysis] running analysis passes on this crate
+end of query stack
+
+thread 'rustc' panicked at compiler/rustc_middle/src/hir/map.rs:985:9:
+assertion `left == right` failed
+  left: #0
+ right: #71
+stack backtrace:
+   0:     0x7f43def4cde7 - <std::sys::backtrace::BacktraceLock::print::DisplayBacktrace as core::fmt::Display>::fmt::h8e8fd6180ddfbd7f
+   1:     0x7f43d9fb06ef - core::fmt::write::he18f5420b620829d
+   2:     0x7f43def3eb49 - <unknown>
+   3:     0x7f43def51ca0 - <unknown>
+   4:     0x7f43def5186d - std::panicking::default_hook::h0e60bdf2990a138e
+   5:     0x7f43db533b70 - <unknown>
+   6:     0x7f43def525fd - std::panicking::rust_panic_with_hook::h4734e0501b1a43c6
+   7:     0x7f43def5225c - <unknown>
+   8:     0x7f43def4d369 - <unknown>
+   9:     0x7f43def51eff - __rustc[ac5f6d510abeb4a3]::rust_begin_unwind
+  10:     0x7f43d9c03aa0 - core::panicking::panic_fmt::hb845b03fe76e677e
+  11:     0x7f43d9c03ee4 - core::panicking::assert_failed_inner::h82436587a3b4f1b1
+  12:     0x7f43d9d51736 - core[b4c6bd90f375d6c2]::panicking::assert_failed::<rustc_span[91c190de805206ee]::hygiene::SyntaxContext, rustc_span[91c190de805206ee]::hygiene::SyntaxContext>
+  13:     0x7f43dcbcc2ff - <rustc_middle[52348969082f9908]::ty::context::TyCtxt>::hir_span
+  14:     0x7f43dc4decd9 - <unknown>
+  15:     0x7f43ddd544e6 - <unknown>
+  16:     0x7f43ddc7454f - <unknown>
+  17:     0x7f43ddb403f6 - rustc_query_system[13da23bd43f77368]::query::plumbing::try_execute_query::<rustc_query_impl[f7be1a0569e6f903]::DynamicConfig<rustc_query_system[13da23bd43f77368]::query::caches::DefIdCache<rustc_middle[52348969082f9908]::query::erase::Erased<[u8; 8usize]>>, false, false, false>, rustc_query_impl[f7be1a0569e6f903]::plumbing::QueryCtxt, false>
+  18:     0x7f43de02a071 - <unknown>
+  19:     0x7f43dbe7c098 - <unknown>
+  20:     0x7f43dbe75b00 - <unknown>
+  21:     0x7f43dbe7f245 - <unknown>
+  22:     0x7f43dbdd66a2 - <unknown>
+  23:     0x7f43dbe7d9d1 - <unknown>
+  24:     0x7f43dbe0b2bf - <unknown>
+  25:     0x7f43dbe7fb17 - <unknown>
+  26:     0x7f43dbdd66a2 - <unknown>
+  27:     0x7f43dbe7d9d1 - <unknown>
+  28:     0x7f43dbdffd4c - <unknown>
+  29:     0x7f43dbe8914a - <unknown>
+  30:     0x7f43dbdd66a2 - <unknown>
+  31:     0x7f43dbe7d9d1 - <unknown>
+  32:     0x7f43dbe0aff6 - <unknown>
+  33:     0x7f43dbe7fb17 - <unknown>
+  34:     0x7f43dbdd66a2 - <unknown>
+  35:     0x7f43dbe7d9d1 - <unknown>
+  36:     0x7f43dbdd80fa - <unknown>
+  37:     0x7f43dc0c87f2 - <unknown>
+  38:     0x7f43dbe75643 - <unknown>
+  39:     0x7f43dbe7f245 - <unknown>
+  40:     0x7f43dbdd66a2 - <unknown>
+  41:     0x7f43dbe7d9d1 - <unknown>
+  42:     0x7f43dbdffd4c - <unknown>
+  43:     0x7f43dbdbfe38 - <unknown>
+  44:     0x7f43dbe87518 - <unknown>
+  45:     0x7f43dbdd66a2 - <unknown>
+  46:     0x7f43dbe7d9d1 - <unknown>
+  47:     0x7f43dbdffd4c - <unknown>
+  48:     0x7f43dbdbfe38 - <unknown>
+  49:     0x7f43dbe87518 - <unknown>
+  50:     0x7f43dbdd66a2 - <unknown>
+  51:     0x7f43dbe7d9d1 - <unknown>
+  52:     0x7f43dbe0b2bf - <unknown>
+  53:     0x7f43dbe7fb17 - <unknown>
+  54:     0x7f43dbdd66a2 - <unknown>
+  55:     0x7f43dbe7d9d1 - <unknown>
+  56:     0x7f43dbe0b2bf - <unknown>
+  57:     0x7f43dbe7fb17 - <unknown>
+  58:     0x7f43dbdd66a2 - <unknown>
+  59:     0x7f43dbe7d9d1 - <unknown>
+  60:     0x7f43dbdd80fa - <unknown>
+  61:     0x7f43dc0c87f2 - <unknown>
+  62:     0x7f43dc0d88c6 - <unknown>
+  63:     0x7f43ddd53904 - <unknown>
+  64:     0x7f43ddc7285b - <unknown>
+  65:     0x7f43ddbcac44 - rustc_query_system[13da23bd43f77368]::query::plumbing::try_execute_query::<rustc_query_impl[f7be1a0569e6f903]::DynamicConfig<rustc_data_structures[47b07c9f56724f4]::vec_cache::VecCache<rustc_span[91c190de805206ee]::def_id::LocalDefId, rustc_middle[52348969082f9908]::query::erase::Erased<[u8; 8usize]>, rustc_query_system[13da23bd43f77368]::dep_graph::graph::DepNodeIndex>, false, false, false>, rustc_query_impl[f7be1a0569e6f903]::plumbing::QueryCtxt, false>
+  66:     0x7f43de0289c9 - <unknown>
+  67:     0x7f43dbaf78a0 - <unknown>
+  68:     0x7f43dbaee379 - <unknown>
+  69:     0x7f43db9b0cb1 - rustc_hir_analysis[ad1374ae5dc0615b]::check_crate
+  70:     0x7f43dc4ed435 - rustc_interface[e8a11c94ee4b47dc]::passes::analysis
+  71:     0x7f43ddd540e2 - <unknown>
+  72:     0x7f43ddc73ab7 - <unknown>
+  73:     0x7f43ddb440c3 - rustc_query_system[13da23bd43f77368]::query::plumbing::try_execute_query::<rustc_query_impl[f7be1a0569e6f903]::DynamicConfig<rustc_query_system[13da23bd43f77368]::query::caches::SingleCache<rustc_middle[52348969082f9908]::query::erase::Erased<[u8; 0usize]>>, false, false, false>, rustc_query_impl[f7be1a0569e6f903]::plumbing::QueryCtxt, false>
+  74:     0x7f43de0247b9 - <unknown>
+  75:     0x7f43db4f11cd - <unknown>
+  76:     0x7f43db535086 - <unknown>
+  77:     0x7f43db5e6550 - <unknown>
+  78:     0x7f43db5e48e0 - <unknown>
+  79:     0x7f43db565447 - <unknown>
+  80:     0x7f43db4fdbbf - <unknown>
+  81:     0x7f43db5cb6e7 - <unknown>
+  82:     0x7f43def58341 - <unknown>
+  83:     0x7f43d90a1c2e - <unknown>
+  84:     0x7f43d912560c - <unknown>
+  85:                0x0 - <unknown>
+
+error: the compiler unexpectedly panicked. this is a bug.
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: rustc 1.90.0 (1159e78c4 2025-09-14) (gentoo) running on x86_64-unknown-linux-gnu
+
+note: compiler flags: --crate-type lib -C embed-bitcode=no -C debuginfo=2
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+#0 [def_span] looking up span for `async_initable::<impl at /home/david/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gio-0.21.2/src/async_initable.rs:10:1: 10:19>::with_mut_values_future::{closure#0}::{closure#0}`
+#1 [typeck] type-checking `async_initable::<impl at /home/david/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gio-0.21.2/src/async_initable.rs:10:1: 10:19>::with_mut_values_future`
+#2 [analysis] running analysis passes on this crate
+end of query stack
+error: could not compile `gio` (lib)
+
+Caused by:
+  process didn't exit successfully: `/home/david/.rustup/toolchains/gentoo/bin/rustc --crate-name gio --edition=2021 /home/david/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gio-0.21.2/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --diagnostic-width=130 --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("v2_58", "v2_60", "v2_62", "v2_64", "v2_66", "v2_68", "v2_70", "v2_72", "v2_74", "v2_76", "v2_78", "v2_80", "v2_82", "v2_84", "v2_86"))' -C metadata=2558a1138ba4486c -C extra-filename=-2d19a66085ed8b13 --out-dir /home/david/Programming/Rust/tmp/target/debug/deps -L dependency=/home/david/Programming/Rust/tmp/target/debug/deps --extern futures_channel=/home/david/Programming/Rust/tmp/target/debug/deps/libfutures_channel-35b0d041f3351a4f.rmeta --extern futures_core=/home/david/Programming/Rust/tmp/target/debug/deps/libfutures_core-0fccf4de4a2250b0.rmeta --extern futures_io=/home/david/Programming/Rust/tmp/target/debug/deps/libfutures_io-141023834609d6a4.rmeta --extern futures_util=/home/david/Programming/Rust/tmp/target/debug/deps/libfutures_util-f4a31c064eedbb02.rmeta --extern gio_sys=/home/david/Programming/Rust/tmp/target/debug/deps/libgio_sys-b1ebd6f67028903a.rmeta --extern glib=/home/david/Programming/Rust/tmp/target/debug/deps/libglib-e9627af13f29a116.rmeta --extern libc=/home/david/Programming/Rust/tmp/target/debug/deps/liblibc-f2fc70c91e3437a0.rmeta --extern pin_project_lite=/home/david/Programming/Rust/tmp/target/debug/deps/libpin_project_lite-f73d95a73f3bfe01.rmeta --extern smallvec=/home/david/Programming/Rust/tmp/target/debug/deps/libsmallvec-e83311bb74e0b9de.rmeta --cap-lints allow` (exit status: 101)
